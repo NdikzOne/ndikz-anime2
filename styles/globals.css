@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.anime-card {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.loading-spinner {
+  @apply animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500;
+}
