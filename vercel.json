@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/watch/:slug*",
+      "destination": "/watch/[slug]"
+    }
+  ]
+}
